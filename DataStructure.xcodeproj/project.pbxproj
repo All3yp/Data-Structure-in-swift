@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1832774E26289D7500947E52 /* BinarySearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1832774D26289D7500947E52 /* BinarySearch.swift */; };
+		1832775426289EF000947E52 /* BinarySearchTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1832775326289EF000947E52 /* BinarySearchTestCase.swift */; };
 		18C7DF58258D9B52000859D1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C7DF57258D9B52000859D1 /* AppDelegate.swift */; };
 		18C7DF5A258D9B52000859D1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C7DF59258D9B52000859D1 /* ViewController.swift */; };
 		18C7DF5C258D9B53000859D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18C7DF5B258D9B53000859D1 /* Assets.xcassets */; };
@@ -30,6 +32,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1832774D26289D7500947E52 /* BinarySearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinarySearch.swift; sourceTree = "<group>"; };
+		1832775326289EF000947E52 /* BinarySearchTestCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinarySearchTestCase.swift; sourceTree = "<group>"; };
 		18C7DF54258D9B52000859D1 /* DataStructure.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DataStructure.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18C7DF57258D9B52000859D1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		18C7DF59258D9B52000859D1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -111,6 +115,7 @@
 				18C7DF68258D9B8A000859D1 /* Stack.swift */,
 				18CF821F25A69779007A969F /* Queue.swift */,
 				18D1476F25A2531D00026A19 /* BinaryTrees.swift */,
+				1832774D26289D7500947E52 /* BinarySearch.swift */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -119,9 +124,10 @@
 			isa = PBXGroup;
 			children = (
 				18C7DF76258D9C51000859D1 /* DataStructureTests.swift */,
+				18CF822325A6978B007A969F /* QueueTest.swift */,
 				18C7DF78258D9C51000859D1 /* Info.plist */,
 				18D1477325A255CB00026A19 /* BinaryTreeTestCase.swift */,
-				18CF822325A6978B007A969F /* QueueTest.swift */,
+				1832775326289EF000947E52 /* BinarySearchTestCase.swift */,
 			);
 			path = DataStructureTests;
 			sourceTree = "<group>";
@@ -228,6 +234,7 @@
 				18CF822025A69779007A969F /* Queue.swift in Sources */,
 				18D1477025A2531D00026A19 /* BinaryTrees.swift in Sources */,
 				18C7DF5A258D9B52000859D1 /* ViewController.swift in Sources */,
+				1832774E26289D7500947E52 /* BinarySearch.swift in Sources */,
 				18C7DF69258D9B8A000859D1 /* Stack.swift in Sources */,
 				18C7DF58258D9B52000859D1 /* AppDelegate.swift in Sources */,
 			);
@@ -237,6 +244,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1832775426289EF000947E52 /* BinarySearchTestCase.swift in Sources */,
 				18D1477425A255CB00026A19 /* BinaryTreeTestCase.swift in Sources */,
 				18C7DF77258D9C51000859D1 /* DataStructureTests.swift in Sources */,
 				18CF822425A6978B007A969F /* QueueTest.swift in Sources */,

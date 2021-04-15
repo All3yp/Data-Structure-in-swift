@@ -29,7 +29,9 @@ class BinaryTreeTestCase: XCTestCase {
 	}()
 
 	func test_visualizeBinaryTree() {
+        print("\nBinary tree 🌳\n")
 		print(tree.description)
+        print()
 	}
 
 	func test_traverseInOrder() {
