@@ -2,7 +2,7 @@
 //  Stack.swift
 //  DataStructure
 //
-//  Created by Alley Pereira on Rony14/04/21.
+//  Created by Alley Pereira on 14/04/21.
 //
 
 import Foundation
