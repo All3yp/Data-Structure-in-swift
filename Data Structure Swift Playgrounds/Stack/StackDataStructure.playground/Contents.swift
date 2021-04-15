@@ -12,3 +12,9 @@ example(of: "Using a stack") {
     print("Popped: \(poppedValue)")
   }
 }
+
+example(of: "initializing a stack from an array literal") {
+  var stack: Stack = [1.0, 2.0, 3.0, 4.0]
+  print(stack)
+  stack.pop()
+}
